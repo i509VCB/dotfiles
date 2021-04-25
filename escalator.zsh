@@ -4,7 +4,7 @@
 source ~/dotfiles/_instant_prompt.zsh
 
 # Machine specifics
-I5_ACCENT_COLOR=3 # Orange - May need to change this since IDEA renders it as yellow
+I5_ACCENT_COLOR=208 # Orange
 
 # Common configuration - make sure to copy over to bikeshed
 source ~/dotfiles/_aliases.zsh
