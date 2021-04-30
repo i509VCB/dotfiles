@@ -1,5 +1,6 @@
 # ls colors
 source ~/dotfiles/theming/_ls_colors.zsh
+source ~/dotfiles/theming/_neofetch.zsh
 
 if (( ${+I5_ACCENT_COLOR} )); then
 	# We expect p10k to be installed here.
