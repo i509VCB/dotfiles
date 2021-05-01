@@ -9,3 +9,4 @@ I5_ACCENT_COLOR=208 # Orange
 # Common configuration - make sure to copy over to bikeshed
 source ~/dotfiles/_aliases.zsh
 source ~/dotfiles/theming/theming.zsh
+source ~/dotfiles/_paths.zsh

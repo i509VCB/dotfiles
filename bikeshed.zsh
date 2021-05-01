@@ -9,3 +9,4 @@ I5_ACCENT_COLOR=13 # Purple
 # Common configuration - make sure to copy over to escalator
 source ~/dotfiles/_aliases.zsh
 source ~/dotfiles/theming/theming.zsh
+source ~/dotfiles/_paths.zsh
