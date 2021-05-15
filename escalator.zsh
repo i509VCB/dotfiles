@@ -4,7 +4,8 @@
 source ~/dotfiles/_instant_prompt.zsh
 
 # Machine specifics
-I5_ACCENT_COLOR=208 # Orange
+typeset -g I5_ACCENT_COLOR=208 # Orange
+typeset -g I5_WHITE_TEXT=15 # White
 
 # Common configuration - make sure to copy over to bikeshed
 source ~/dotfiles/_aliases.zsh

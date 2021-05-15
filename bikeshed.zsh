@@ -4,7 +4,8 @@
 source ~/dotfiles/_instant_prompt.zsh
 
 # Machine specifics
-I5_ACCENT_COLOR=13 # Purple
+typeset -g I5_ACCENT_COLOR=129 # Purple
+typeset -g I5_WHITE_TEXT=15 # White
 
 # Common configuration - make sure to copy over to escalator
 source ~/dotfiles/_aliases.zsh

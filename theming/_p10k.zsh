@@ -123,7 +123,7 @@
 
   ##################################[ dir: current directory ]##################################
   # Default current directory color.
-  typeset -g POWERLEVEL9K_DIR_FOREGROUND=7
+  typeset -g POWERLEVEL9K_DIR_FOREGROUND=$I5_WHITE_TEXT
   # typeset -g PWOERLEVEL9K_DIR_BACKGROUND=$I5_ACCENT_COLOR
   # If directory is too long, shorten some of its segments to the shortest possible unique
   # prefix. The shortened directory can be tab-completed to the original.
@@ -131,7 +131,7 @@
   # Replace removed segment suffixes with this symbol.
   typeset -g POWERLEVEL9K_SHORTEN_DELIMITER=
   # Color of the shortened directory segments.
-  typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND=7
+  typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND=$I5_WHITE_TEXT
   # Color of the anchor directory segments. Anchor segments are never shortened. The first
   # segment is always an anchor.
   typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND=39
@@ -415,7 +415,7 @@
   typeset -g POWERLEVEL9K_VCS_{STAGED,UNSTAGED,UNTRACKED,CONFLICTED,COMMITS_AHEAD,COMMITS_BEHIND}_MAX_NUM=-1
 
   # Icon color.
-  typeset -g POWERLEVEL9K_VCS_VISUAL_IDENTIFIER_COLOR=7
+  typeset -g POWERLEVEL9K_VCS_VISUAL_IDENTIFIER_COLOR=$I5_WHITE_TEXT
   typeset -g POWERLEVEL9K_VCS_LOADING_VISUAL_IDENTIFIER_COLOR=244
 
   # Custom icon.
@@ -538,7 +538,7 @@
   typeset -g POWERLEVEL9K_CONTEXT_{REMOTE,REMOTE_SUDO}_FOREGROUND=3
   typeset -g POWERLEVEL9K_CONTEXT_{REMOTE,REMOTE_SUDO}_BACKGROUND=0
   # Default context color (no privileges, no SSH).
-  typeset -g POWERLEVEL9K_CONTEXT_FOREGROUND=7
+  typeset -g POWERLEVEL9K_CONTEXT_FOREGROUND=$I5_WHITE_TEXT
   typeset -g POWERLEVEL9K_CONTEXT_BACKGROUND=3
 
   # Context format when running with privileges: user.
@@ -574,7 +574,7 @@
 
   ####################################[ time: current time ]####################################
   # Current time color.
-  typeset -g POWERLEVEL9K_TIME_FOREGROUND=7
+  typeset -g POWERLEVEL9K_TIME_FOREGROUND=$I5_WHITE_TEXT
   typeset -g POWERLEVEL9K_TIME_BACKGROUND=$I5_ACCENT_COLOR
   # Format for the current time: 09:51:02. See `man 3 strftime`.
   typeset -g POWERLEVEL9K_TIME_FORMAT='%D{%I:%M %p}'

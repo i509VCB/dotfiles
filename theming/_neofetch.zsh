@@ -22,8 +22,8 @@ if (where neofetch >> /dev/null -eq 0) {
 		$I5_ACCENT_COLOR \
 		$I5_ACCENT_COLOR \
 		$I5_ACCENT_COLOR \
-		7 \
-		7 \
+		$I5_WHITE_TEXT \
+		$I5_WHITE_TEXT \
 		--ascii_colors \
 		$I5_ACCENT_COLOR \
 		$I5_ACCENT_COLOR \
