@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#ff8800"
+    },
+    "workbench.activityBar.visible": false,
+
+    "window.menuBarVisibility": "hidden",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
+
+    // Editor settings
+    "editor.inlayHints.enabled": true,
+    "editor.minimap.enabled": false,
+
+    // Rust analyzer
+    "rust-analyzer.cargo.runBuildScripts": true,
+    "rust-analyzer.inlayHints.maxLength": null,
+
+    // Terminal
+    "terminal.external.linuxExec": "alacritty",
+    // p10k font
+    "terminal.integrated.fontFamily": "'Hack'",
+
+    // Set environment variable for IDE in case I add some special p10k settings
+    "terminal.integrated.env.linux": {
+        "I5_VSC": "1"
+    },
+
+    "git.enabled": false
+}
