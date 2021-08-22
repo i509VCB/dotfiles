@@ -18,13 +18,19 @@
 
     // Terminal
     "terminal.external.linuxExec": "alacritty",
-    // p10k font
-    "terminal.integrated.fontFamily": "'Hack'",
 
     // Set environment variable for IDE in case I add some special p10k settings
     "terminal.integrated.env.linux": {
         "I5_VSC": "1"
     },
 
-    "git.enabled": false
+    "git.enabled": false,
+
+    "linux": {
+        // p10k font
+        "terminal.integrated.fontFamily": "'Hack'",
+    },
+
+    "osx": {},
+    "files.autoSave": "afterDelay"
 }
