@@ -11,6 +11,8 @@
     // Editor settings
     "editor.inlayHints.enabled": true,
     "editor.minimap.enabled": false,
+    "editor.rulers": [ 110, 120, 160 ],
+    "editor.wordWrap": "off",
 
     // Rust analyzer
     "rust-analyzer.cargo.runBuildScripts": true,
